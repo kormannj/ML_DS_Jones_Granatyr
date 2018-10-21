@@ -1,7 +1,7 @@
 import pandas as pd
 
 #Leitura arquivo
-base = pd.read_csv('credit-data.csv')
+base = pd.read_csv('credit_data.csv')
 #Mostra estatísticas do arquivo importado
 base.describe()
 
